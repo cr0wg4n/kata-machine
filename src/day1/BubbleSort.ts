@@ -1,6 +1,8 @@
 export default function bubble_sort(arr: number[]): void {
   let counter = 0
-  for (let i = 0; i < arr.length - 1; i++) {
+
+  // first option
+  for (let i = 0; i < arr.length; i++) {
     for (let j = i + 1; j < arr.length; j++) {
       counter++
       if(arr[i] > arr[j]) {
@@ -14,6 +16,7 @@ export default function bubble_sort(arr: number[]): void {
   console.log(counter)
   counter=0
 
+  // second option
   for (let i = 0; i < arr.length; i++) {
     for (let j = 0; j < arr.length -1 -i; j++) {
       counter++
