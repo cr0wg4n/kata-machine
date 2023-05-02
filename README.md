@@ -90,6 +90,8 @@ or
 ```sh
 ## For example Queue.ts
 jest -i src/__tests__/Queue.ts 
+# or an aproximate filename
+npx jest Queue
 ```
 
 I have yet to create a testing strategy for next sets of algorithms, but we
