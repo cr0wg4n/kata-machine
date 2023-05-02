@@ -83,8 +83,13 @@ the latest `day` folder via tspaths.  This allows us to avoid updating anything
 for testing each day.
 
 #### Testing
-```
+```sh
 yarn test
+```
+or
+```sh
+## For example Queue.ts
+jest -i src/__tests__/Queue.ts 
 ```
 
 I have yet to create a testing strategy for next sets of algorithms, but we
