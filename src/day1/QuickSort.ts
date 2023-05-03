@@ -16,7 +16,7 @@ function quick(arr: number[], lo: number, hi: number): void {
     return
   }
   const pivotIdx = partition(arr, lo, hi)
-  quick(arr, lo, pivotIdx -1)
+  quick(arr, lo, pivotIdx-1)
   quick(arr, pivotIdx+1, hi)
 }
 
